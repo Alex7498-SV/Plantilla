@@ -1,3 +1,121 @@
 body{
     background-color: #202024;
+    font-family: 'Acme', sans-serif;
+    font-size: 2 em;
+    color: white;
+    margin: 0%;
+    margin-top: -20px;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    text-align: center;
+    background-image: url("../src/img/giphy-downsized-large.gif");
+    background-repeat:no-repeat; 
+    background-size: 100%; 
+    width: 100%;
+    height: 100%;
+}
+.head{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+}
+
+.icon{
+    font-size: 3em;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    margin: 4em;
+    grid-template-columns: repeat(3, 33.3%);
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.d1{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d2{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d3{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d4{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d5{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d6{
+    margin: 1em;
+    background-color: #2c2c32;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.img{
+    border-radius: 0.7em;
+}
+.btn1{
+    border: none;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    border-radius: 1em;
+    background-color: #70c7be;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.btn2{
+    border: none;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    border-radius: 1em;
+    background-color: #7f92cf;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.btn3{
+    border: none;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 10em;
+    padding-right: 10em;
+    border-radius: 1em;
+    background-color: #9d7ed0;
+    color: white;
+    margin-bottom: 1em;
 }
