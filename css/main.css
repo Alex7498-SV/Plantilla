@@ -47,8 +47,8 @@ header{
 
 .content{
     display: grid;
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-left: 4em;
+    margin-right: 4em;
     grid-template-columns: repeat(3, 33.3%);
     font-family: 'Source Sans Pro', sans-serif;
     color: gray;
@@ -184,7 +184,7 @@ footer{
 @media only screen and (max-width: 1300px){
 
     body{
-        font-size: .6em;
+        font-size: 1em;
     }
     .content{
         grid-template-columns: repeat(3, 33.3%);
@@ -224,10 +224,10 @@ footer{
 } 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
 
     body{
-        font-size: .6em;
+        font-size: 0.8em;
     }
     .content{
         grid-template-columns: repeat(2, 50%);
@@ -266,14 +266,16 @@ footer{
     }
 } 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
 
     /* body{
         font-size: .5em;
     } */
     .content{
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(1, 100%);
         font-size: 1.2em;
+        margin-left: -6px;
+        margin-right: -6px;
         
     }
 
@@ -292,7 +294,7 @@ footer{
 
     .head{
         grid-column: 1 /span 3;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
 
     .icon{
@@ -304,7 +306,7 @@ footer{
     }
 } 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
 
     body{
         font-size: .8em;
@@ -334,7 +336,7 @@ footer{
 
     .head{
         grid-column: 1 /span 3;
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .icon{
